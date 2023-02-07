@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Week 4 - Challenge 2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Formulario React & TypeScript
 
-## Available Scripts
+Crea con React un formulario de tres pasos.
 
-In the project directory, you can run:
+En cada paso habrá un grupo de campos, y sólo se debe ver un paso a la vez.
+Pon en cada paso un botón para navegar al siguiente y otro para navegar al anterior (en el primer paso no debe verse el botón de anterior).
+En el tercer paso debe haber un botón "Acceder".
+En cada paso, el botón para continuar al siguiente paso debe estar deshabilitado hasta que se rellenen todos los campos del paso.
+Paso 1: Personal data
+Name
+Last name
+BirthDate (cuando el usuario introduzca la fecha, al lado de este campo debe aparecer su edad en años)
+Gender (male/female/other/prefer not to mention) --> Radio button
+Email
+Desea recibir información de nuestra newsletter? --> Checkbox
+Paso 2: Access data
+Username
+Password
+Repeat password
+Account type (personal/pro/business) --> Tiene que ser un select
+Paso 3: Confirmación
+El usuario debe de ver todos los datos introducidos y confirmar que es correcto. Botón para confirmar.
+Paso 4: Login
+Username
+Password
+Si los datos son incorrectos, se debe de mostrar un mensaje de error.
 
-### `npm start`
+Si son correctos, se le debe mostrar una pantalla con todos los datos introducidos en el formulario (sería como un cuarto paso). Contraer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Week 4 - Challenge 2
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Form & TypeScript
 
-### `npm test`
+Create a three-step form with React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In each step there will be a group of fields, and you should only see one step at a time.
+Put in each step a button to navigate to the next and another to navigate to the previous one (in the first step the previous button should not be visible).
+In the third step there should be a "Login" button.
+In each step, the button to continue to the next step should be disabled until all the fields in the step are filled out.
+Step 1: Personal data
+Yam
+Last name
+BirthDate (when the user enters the date, their age in years must appear next to this field)
+Gender (male/female/other/prefer not to mention) --> Radio button
+E-mail
+Do you want to receive information from our newsletter? --> Checkbox
+Step 2: Access data
+username
+Password
+repeat password
+Account type (personal/pro/business) --> It has to be a select
+Step 3: Confirmation
+The user must see all the data entered and confirm that it is correct. Button to confirm.
+Step 4: Login
+username
+Password
+If the data is incorrect, an error message should be displayed.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If they are correct, you should be shown a screen with all the data entered in the form (it would be like a fourth step). Contract
