@@ -122,6 +122,7 @@ const FormThreeSteps = () => {
           </select>
           <br />
           <button onClick={nextStep}>Next</button>
+          <button onClick={prevStep}>Prev</button>
         </div>
       );
     case 3:
